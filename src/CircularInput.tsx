@@ -78,11 +78,11 @@ export function CircularInput({
 				keyCode === 40 || keyCode === 37 || keyCode === 34
 
 			if (isIncrement) {
-				onChange(Math.min(1, value + 0.1))
+				onChangeEnd(Math.min(1, value + 0.1))
 			}
 
 			if (isDecrement) {
-				onChange(Math.max(0, value - 0.1))
+				onChangeEnd(Math.max(0, value - 0.1))
 			}
 
 			if (isIncrement || isDecrement) {
