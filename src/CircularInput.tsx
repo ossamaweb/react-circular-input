@@ -157,10 +157,10 @@ export function CircularInput({
 		(e) => {
 			if (isReadonly) return
 			const nearestValue = getValueFromPointerEvent(e)
-			//onChange(nearestValue)
+			// onChange(nearestValue)
 			onChangeEnd(nearestValue)
 		},
-		[onChange, onChangeEnd, getValueFromPointerEvent, isReadonly]
+		[onChangeEnd, getValueFromPointerEvent, isReadonly]
 	)
 
 	const style = {
