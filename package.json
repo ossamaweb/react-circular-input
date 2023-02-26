@@ -14,12 +14,12 @@
 	"scripts": {
 		"start": "tsc -w -p tsconfig.lib.json",
 		"build": "rm -rf dist && tsc -p tsconfig.lib.json",
-		"prepare": "npm run build",
+		"prepare": "yarn build",
 		"format": "prettier --config .prettierrc --write \"src/**/*\"",
 		"lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
 		"docs:dev": "next",
 		"docs:build": "next build",
-		"now-build": "npm run docs:build"
+		"now-build": "yarn docs:build"
 	},
 	"peerDependencies": {
 		"react": ">= 16.8.0",
