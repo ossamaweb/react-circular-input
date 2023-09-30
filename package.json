@@ -1,10 +1,9 @@
 {
 	"name": "react-circular-input",
 	"version": "0.2.3",
-	"description": "React components for easily composing a circular range input",
-	"author": "petecorreia",
+	"description": "Forked react-circular-input",
+	"author": "ossamaweb",
 	"license": "MIT",
-	"homepage": "https://react-circular-input.now.sh",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"sideEffects": false,
@@ -49,12 +48,15 @@
 		"typescript": "^4.2.2"
 	},
 	"bugs": {
-		"url": "https://github.com/petecorreia/react-circular-input/issues"
+		"url": "https://github.com/ossamaweb/react-circular-input/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/petecorreia/react-circular-input.git"
+		"url": "git+https://github.com/ossamaweb/react-circular-input.git"
 	},
+	"publishConfig": {
+    "registry": "https://npm.pkg.github.com/ossamaweb"
+  },
 	"keywords": [
 		"react",
 		"circular",
